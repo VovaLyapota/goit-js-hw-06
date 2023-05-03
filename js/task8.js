@@ -15,5 +15,5 @@ formEl.addEventListener("submit", (event) => {
   console.log(`Email: ${email.value}`);
   console.log(`Password: ${password.value}`);
 
-  event.currentTarget.reset;
+  event.currentTarget.reset();
 });

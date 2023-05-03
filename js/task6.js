@@ -7,6 +7,7 @@ inputEl.addEventListener("blur", (event) => {
     inputEl.classList.add("valid");
     inputEl.classList.replace("invalid", "valid");
   } else {
+    inputEl.classList.add("invalid");
     inputEl.classList.replace("valid", "invalid");
   }
 });
